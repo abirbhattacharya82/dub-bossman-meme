@@ -12,3 +12,8 @@ function change()
         }
     )
 }
+function copy()
+{
+    var copyText = document.getElementById("url").innerHTML;
+    navigator.clipboard.writeText(copyText.value);
+}

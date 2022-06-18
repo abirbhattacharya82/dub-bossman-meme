@@ -1,0 +1,100 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Heading
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 500%;
+    padding: 1%;
+}
+.Column-area
+{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.Subheading
+{
+    font-size: 300%;
+}
+p
+{
+    font-size: 150%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.Column-area .About
+{
+    width: 50%;
+}
+.Column-area .About p
+{
+    margin-right: 2%;
+}
+.Column-area .Test
+{
+    width: 50%;
+}
+.Column-area .Test
+{
+    border: 1px solid black;
+    text-align: center;
+}
+.Column-area .Test button
+{
+    border: none;
+    font-size: 150%;
+    width: 30%;
+    margin: 1%;
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
+.Column-area .Test button:hover
+{
+    background-color: grey;
+    color: black;
+}
+.Column-area .Test img
+{
+    width: 60%;
+    margin-bottom: 1%;
+}
+.Column-area .About .copy
+{
+    color: white;
+    background-color: black;
+    font-size: 150%;
+    padding:1.2%;
+}
+.Column-area .About button
+{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 150%;
+    padding: 1.1%;
+    padding-bottom: 0.8%;
+}
+.Column-area .About button:hover
+{
+    background-color: grey;
+    color: black;
+}
+.About-Robbie
+{
+    padding: 2%;
+}
+.Footer
+{
+    background-color: black;
+    padding: 1%;
+    font-size: 120%;
+    color: white;
+    text-align: center;
+}
