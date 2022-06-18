@@ -5,10 +5,6 @@ const cors=require('cors');
 app.use(cors());
 
 app.get('/',(req,res)=>{
-    res.sendFile(__dirname+"/index.html");
-});
-
-app.get('/dub',(req,res)=>{
     const data=require('./src/data.json');
     var min=1;
     var max=Object.keys(data).length;
