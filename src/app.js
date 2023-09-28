@@ -1,6 +1,6 @@
 function change()
 {
-    fetch('https://dub-bossman-meme.herokuapp.com').then(
+    fetch('https://dub-bossman-memes.onrender.com/').then(
         (arr)=>{
             arr.json().then(
                 (res)=>{
